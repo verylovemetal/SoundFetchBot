@@ -19,7 +19,7 @@ public class Main {
     private static final Main instance = new Main();
 
     @Getter
-    private static final String botToken = "8195347855:AAEb6PS0hnFPMJnbBbMqoE2ltgqVqybXxBg";
+    private static final String botToken = "";
 
     @Getter
     private final TelegramClient telegramClient = new OkHttpTelegramClient(botToken);
